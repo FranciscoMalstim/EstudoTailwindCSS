@@ -1,5 +1,4 @@
 import ImgLogo from "../assets/Icon.svg"
-import LogoGmail from "../assets/google-plus.svg"
 
 export function Subscribe() {
   return (
@@ -29,10 +28,6 @@ export function Subscribe() {
             className="mt-4 bg-green-500 uppercase px-5 h-10 w-[288px] rounded font-bold text-sm hover:bg-green-700 hover:text-gray-700 transition-colors disabled:opacity-50"
           >
             Cadastrar
-          </button>
-          <button className="flex flex-col-reverse items-center justify-center">
-            <span className="flex mb-3 text-gray-700 justify-center content-end">Logar com Gmail</span>
-            <img className="h-[50px] w-[50px] rounded-full border-1 ml-2 mt-3" src={LogoGmail} alt="" />
           </button>
         </form>
       </div>
