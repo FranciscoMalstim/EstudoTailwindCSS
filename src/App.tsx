@@ -1,10 +1,10 @@
-import { Header } from "./components/Header"
+import { Subscribe } from "./pages/Subscribe"
 
 function App() {
 
   return (
     <div>
-      <Header />      
+      <Subscribe />      
     </div>
   )
 }
